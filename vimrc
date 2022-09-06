@@ -51,7 +51,7 @@ set softtabstop=4 "連続した空白に対してタブキーやバックスペ�
 set autoindent "改行時に前の行のインデントを継続する
 set smartindent "改行時に入力された行の末尾に合わせて次の行のインデントを増減する
 "スクロールに余裕をもたせる
-set scrolloff=10
+set scrolloff=100
 " 折りたたみレベル
 set foldlevel=1
 set foldnestmax=2
@@ -110,7 +110,6 @@ colorscheme nightfly
 "キーマップ設定
 nnoremap x "_x
 let mapleader = "\<SPACE>"
-nnoremap <C-Space> <C-w>
 nnoremap qq :q!<CR>
 nnoremap <silent> <Tab> <Plug>AirlineSelectPrevTab
 nnoremap <silent> <S-Tab> <Plug>AirlineSelectNextTab
