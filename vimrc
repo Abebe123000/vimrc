@@ -148,14 +148,6 @@ xmap <Leader>h <Plug>(quickhl-manual-this)
 nmap <Leader>H <Plug>(quickhl-manual-reset)
 xmap <Leader>H <Plug>(quickhl-manual-reset)
 
-"vim-floaterm
-"let g:floaterm_wintype='split'
-"let g:floaterm_width=0.95
-"let g:floaterm_height=0.5
-"let g:floaterm_position='bottom'
-"let g:floaterm_opener='edit'
-"let g:floaterm_autoclose=2
-
 " 折りたたむ
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
@@ -163,15 +155,6 @@ set foldexpr=nvim_treesitter#foldexpr()
 " gitgutter
 set signcolumn=yes
 set updatetime=100
-"lf.vim
-" let g:lf_replace_netrw=1
-
-" fzf.vim
-"let g:fzf_layout = {'down':'50%'}
-
-
-" font
-":set guifont=Sarasa:h14
 
 
 " vim-airline
@@ -191,11 +174,6 @@ augroup ScrollbarInit
     autocmd WinEnter,FocusGained           * silent! lua require('scrollbar').show()
     autocmd WinLeave,BufLeave,BufWinLeave,FocusLost            * silent! lua require('scrollbar').clear()
 augroup end
-" let g:scrollbar_shape = {
-"    \ 'head': '▕',
-"    \ 'body': '▕',
-"    \ 'tail': '▕',
-"    \}
 
 lua << EOF
 --telescope
