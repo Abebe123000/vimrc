@@ -24,8 +24,8 @@ nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
 syntax on
 " すべての数を10進数として扱う
 set nrformats=
-" バッファスクロール
-"set mouse=a
+" マウス無効
+set mouse-=a
 " ステータスラインを常に表示
 set laststatus=2
 " 現在の行を強調表示
