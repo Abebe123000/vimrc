@@ -89,8 +89,6 @@ Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'lambdalisue/nerdfont.vim'
 Plug 'airblade/vim-gitgutter'
-"Plug 'sslivkoff/vim-scroll-barnacle' " diff でバグる
-"Plug 'Xuyuanp/scrollbar.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 't9md/vim-quickhl'
 Plug 'nvim-lua/plenary.nvim' " telescope.nvim の依存先
