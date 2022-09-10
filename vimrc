@@ -139,7 +139,7 @@ nnoremap <silent> <Leader>m :Telescope marks<CR>
 " buffers
 nnoremap <Leader>b :buffers<CR>
 source alt_keybindings
-"
+
 " t9md/vim-quickhl
 nmap <Leader>h <Plug>(quickhl-manual-this)
 xmap <Leader>h <Plug>(quickhl-manual-this)
