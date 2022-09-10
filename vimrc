@@ -165,14 +165,6 @@ let g:airline#extensions#tabline#ignore_bufadd_pat = 'defx|gundo|nerd_tree|start
 " 何が変わっているのか謎
 
 
-" Xuyuanp/scrollbar.nvim
-augroup ScrollbarInit
-    autocmd!
-    autocmd WinScrolled,VimResized,QuitPre * silent! lua require('scrollbar').show()
-    autocmd WinEnter,FocusGained           * silent! lua require('scrollbar').show()
-    autocmd WinLeave,BufLeave,BufWinLeave,FocusLost            * silent! lua require('scrollbar').clear()
-augroup end
-
 lua << EOF
 --telescope
 require('telescope').setup{
