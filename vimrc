@@ -138,6 +138,7 @@ nnoremap <silent> <Leader>p :Telescope find_files<CR>
 nnoremap <silent> <Leader>m :Telescope marks<CR>
 " buffers
 nnoremap <Leader>b :buffers<CR>
+source alt_keybindings
 "
 " t9md/vim-quickhl
 nmap <Leader>h <Plug>(quickhl-manual-this)
