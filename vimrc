@@ -73,6 +73,7 @@ let g:netrw_winsize   = 30
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lambdalisue/fern.vim'
@@ -136,7 +137,7 @@ nnoremap <silent> <Leader>p :Telescope find_files<CR>
 nnoremap <silent> <Leader>m :Telescope marks<CR>
 " buffers
 nnoremap <Leader>b :buffers<CR>
-source alt_keybindings
+source ~/projects/vimrc/alt_keybindings
 
 " t9md/vim-quickhl
 nmap <Leader>h <Plug>(quickhl-manual-this)
@@ -162,6 +163,11 @@ let g:airline#extensions#tabline#ignore_bufadd_pat = 'defx|gundo|nerd_tree|start
 " let g:airline#extensions#scrollbar#enabled = 1
 " 何が変わっているのか謎
 
+"fern-preview
+"let g:fern_auto_preview = v:true
+
+" lf.vim
+"let g:lf_replace_netrw = 1
 
 lua << EOF
 --telescope
