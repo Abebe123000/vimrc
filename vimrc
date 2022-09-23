@@ -105,6 +105,8 @@ set termguicolors
 colorscheme nightfly
 
 "キーマップ設定
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
 nnoremap x "_x
 let mapleader = "\<SPACE>"
 nnoremap qq :q!<CR>
