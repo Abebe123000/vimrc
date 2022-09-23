@@ -97,6 +97,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'petertriho/nvim-scrollbar'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'frazrepo/vim-rainbow'
 call plug#end()
 
 "カラースキーム設定
@@ -153,6 +154,8 @@ set foldexpr=nvim_treesitter#foldexpr()
 set signcolumn=yes
 set updatetime=100
 
+"vim-rainbow
+let g:rainbow_active = 1
 
 " vim-airline
 " 上部にバッファをタブ形式で表示
