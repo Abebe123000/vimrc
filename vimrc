@@ -115,8 +115,8 @@ inoremap <C-f> <Right>
 nnoremap x "_x
 let mapleader = "\<SPACE>"
 nnoremap qq :q!<CR>
-nnoremap <silent> <Tab> <Plug>AirlineSelectPrevTab
-nnoremap <silent> <S-Tab> <Plug>AirlineSelectNextTab
+nnoremap <silent> <Tab> <Plug>AirlineSelectNextTab
+nnoremap <silent> <S-Tab> <Plug>AirlineSelectPrevTab
 " 矢印キーで画面スクロール
 nnoremap <Up> <C-u>
 nnoremap <Down> <C-d>
